@@ -1,0 +1,99 @@
+
+    /* Structural */
+
+    .logo {
+      margin-top: 8px; 
+      float: left;
+    }
+
+    .full {
+      width: 100%;
+    }
+
+    .row-margin {
+      margin-top: 25px; 
+      margin-bottom: 25px;
+    }
+
+    .featured-box {
+      background-color: #fafaf7;
+      margin-top: 2%;
+      margin-bottom: 10%;
+    }
+
+    /* Style */
+
+    .border {
+      border: .5px solid #d6d6d5; 
+    }
+
+    .center {
+      text-align: center;
+      }
+
+    .horiz-rule {
+      border: 0; height: 6px; 
+      background: #BCBBBB;
+      margin-top: 2%;
+    }
+
+    .scale-90 {
+      width: 90%;
+    }
+
+    /* Text Attributes */
+
+
+    .featured-text {
+      color: #BCBBBB;
+      font-family: Work Sans; 
+      font-weight: 300; 
+      font-size: 18pt; 
+      line-height: 20px; 
+      padding-left: 17px; 
+      padding-top: 4px;
+      padding-bottom: 7px;
+
+    }
+
+    .link-text {
+      text-align: center; 
+      font-size: 12pt; 
+      font-family: Work Sans, sans-serif; 
+      font-weight: 300;
+      line-height: 22px; 
+      padding-top: 8px; 
+    }
+
+    .name {
+      text-align: right; 
+      text-transform: uppercase; 
+      font-family: Work Sans, sans-serif; 
+      font-weight: 300; 
+      font-size: 38pt; 
+      letter-spacing: 2px; color: #777; 
+      padding-right: 0;
+
+    }
+
+    .title {
+      font-size: 14pt; 
+      margin-top: -10px;
+      letter-spacing: 0;
+    }
+
+    @media (max-width: 321px) {
+      .name {
+        font-size: 18pt;
+      }
+
+      .title {
+        font-size: 9pt;
+      }
+
+      .col-md-4 {
+        float: none;
+        text-align: center;
+        width: auto;
+      }
+    }
