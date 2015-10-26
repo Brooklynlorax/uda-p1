@@ -9,11 +9,11 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,300" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
-    
-
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,41 +24,41 @@
   <body>
     <div class="container">
       <div class="col-md-8 col-md-offset-2">
-        <div class="row">
+        <header class="row">
           <div class="float">
-            <img class="logo"  alt="Mike's thrown together logo" src="images/m-logo.gif">
+            <img class="logo img-responsive"  alt="Mike’s thrown together logo" src="images/m-logo.gif">
           </div>
           <div>
             <h1 class="name">Mike Andres</h1>
             <h6 class="name title">Captain Front-end</h6>
           </div>
-      <div class="clearfix"></div>
-       <!--   Horizontal Rule -->
-      <div class="row col-md-12 center-block horiz-rule row-margin">
-      </div>
-      </div>
-      <div class="row">
-        <div class="center"><a href="http://www.bigonion.com/"><img class="image-responsive border scale-90" alt="Big Onion website image" src="images/project1-bigonion.jpg"></a>
+          <div class="clearfix">
+          </div>
+          <!--   Horizontal Rule -->
+          <div class="row col-md-12 center-block horiz-rule row-margin">
+          </div>
+        </header>
+        <div class="row">
+          <div class="center img-responsive"><a href="http://www.bigonion.com/"><img class="image-responsive border scale-90" src="images/project1-bigonion-sm.jpg" srcset="images/project1-bigonion-md.jpg vw 450, images/project1-bigonion.jpg" alt="Big Onion website image"></a>
+          </div>
         </div>
-      </div>
-      <div class="row featured-box">
+        <section class="row featured-box">
               <h4 class="featured-text">Featured Work</h4>
               <div class="col-md-4">
-                <img class="border" alt="Sweatstyle website image" src="images/project1-sweatstyle.jpg">
+                <img class="border img-responsive" alt="Sweatstyle website image" src="images/project1-sweatstyle.jpg" srcset="images/project1-sweatstyle-lg.jpg 2x">
                 <p class="link-text"><a href="http://mysweatstyle.com/">Sweatstyle.com</a></p>
               </div>
               <div class="col-md-4">
-                <img class="border" alt="Carrier and Company website image" src="images/project1-carrier.jpg">
+                <img class="border img-responsive" alt="Carrier and Company website image" src="images/project1-carrier.jpg" srcset="images/project1-carrier-lg.jpg 2x">
                 <p class="link-text"><a href="http://carrierandco.com/">Carrier and Company</a></p>
               </div>
               <div class="col-md-4">
-                <img class="border" alt="Tom Scheerer website image" src="images/project1-scheerer.jpg">
+                <img class="border img-responsive" alt="Tom Scheerer website image" src="images/project1-scheerer.jpg" srcset="images/project1-scheerer-lg.jpg 2x">
                 <p class="link-text"><a href="http://tomscheerer.com/">Tom Scheerer Interiors</a></p>
             </div>
+        </section>
       </div>
     </div>
-    </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

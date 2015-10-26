@@ -2,7 +2,7 @@
     /* Structural */
 
     .logo {
-      margin-top: 8px; 
+      margin-top: 8px;
       float: left;
     }
 
@@ -11,7 +11,7 @@
     }
 
     .row-margin {
-      margin-top: 25px; 
+      margin-top: 25px;
       margin-bottom: 25px;
     }
 
@@ -24,7 +24,7 @@
     /* Style */
 
     .border {
-      border: .5px solid #d6d6d5; 
+      border: .5px solid #d6d6d5;
     }
 
     .center {
@@ -32,8 +32,8 @@
       }
 
     .horiz-rule {
-      border: 0; height: 6px; 
-      background: #BCBBBB;
+      border: 0; height: 6px;
+      background: #bcbbbb;
       margin-top: 2%;
     }
 
@@ -45,41 +45,41 @@
 
 
     .featured-text {
-      color: #BCBBBB;
-      font-family: Work Sans; 
-      font-weight: 300; 
-      font-size: 18pt; 
-      line-height: 20px; 
-      padding-left: 17px; 
+      color: #bcbbbb;
+      font-family: Work Sans;
+      font-weight: 300;
+      font-size: 18pt;
+      line-height: 20px;
+      padding-left: 17px;
       padding-top: 4px;
       padding-bottom: 7px;
 
     }
 
     .link-text {
-      text-align: center; 
-      font-size: 12pt; 
-      font-family: Work Sans, sans-serif; 
+      text-align: center;
+      font-size: 12pt;
+      font-family: Work Sans, sans-serif;
       font-weight: 300;
-      line-height: 22px; 
-      padding-top: 8px; 
+      line-height: 22px;
+      padding-top: 8px;
     }
 
     .name {
-      text-align: right; 
-      text-transform: uppercase; 
-      font-family: Work Sans, sans-serif; 
-      font-weight: 300; 
-      font-size: 38pt; 
-      letter-spacing: 2px; color: #777; 
+      text-align: right;
+      text-transform: uppercase;
+      font-family: Work Sans, sans-serif;
+      font-weight: 300;
+      font-size: 38pt;
+      letter-spacing: 2px; color: #777;
       padding-right: 0;
 
     }
 
     .title {
-      font-size: 14pt; 
+      font-size: 14pt;
       margin-top: -10px;
       letter-spacing: 0;
     }
 
-    
+
