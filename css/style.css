@@ -1,85 +1,74 @@
 
-    /* Structural */
+/* Structural */
 
-    .logo {
-      margin-top: 8px;
-      float: left;
-    }
+.logo {
+  margin-top: 8px;
+  float: left;
+}
 
-    .full {
-      width: 100%;
-    }
+.full {
+  width: 100%;
+}
 
-    .row-margin {
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
+.row-margin {
+  margin: 25px 0;
+}
 
-    .featured-box {
-      background-color: #fafaf7;
-      margin-top: 2%;
-      margin-bottom: 10%;
-    }
+.featured-box {
+  background-color: #fafaf7;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
 
-    /* Style */
+/* Style */
 
-    .border {
-      border: .5px solid #d6d6d5;
-    }
+.border {
+  border: .5px solid #d6d6d5;
+}
 
-    .center {
-      text-align: center;
-      }
+.center {
+  text-align: center;
+  }
 
-    .horiz-rule {
-      border: 0; height: 6px;
-      background: #bcbbbb;
-      margin-top: 2%;
-    }
+.horiz-rule {
+  border: 0; height: 6px;
+  background: #bcbbbb;
+  margin-top: 2%;
+}
 
-    .scale-90 {
-      width: 90%;
-    }
+.scale-90 {
+  width: 90%;
+}
 
-    /* Text Attributes */
+/* Text Attributes */
 
 
-    .featured-text {
-      color: #bcbbbb;
-      font-family: Work Sans;
-      font-weight: 300;
-      font-size: 18pt;
-      line-height: 20px;
-      padding-left: 17px;
-      padding-top: 4px;
-      padding-bottom: 7px;
+.featured-text {
+  color: #bcbbbb;
+  font: 300 18pt/20px "Work Sans", sans-serif ;
+  padding: 4px 0 7px 17px;
+}
 
-    }
+.link-text {
+  text-align: center;
+  font: 300 12pt/22px "Work Sans", sans-serif;
+  line-height: 22px;
+  padding-top: 8px;
+}
 
-    .link-text {
-      text-align: center;
-      font-size: 12pt;
-      font-family: Work Sans, sans-serif;
-      font-weight: 300;
-      line-height: 22px;
-      padding-top: 8px;
-    }
+.name {
+  text-align: right;
+  text-transform: uppercase;
+  font: 300 38pt "Work Sans", sans-serif;
+  letter-spacing: 2px;
+  color: #777;
+  padding-right: 0;
+}
 
-    .name {
-      text-align: right;
-      text-transform: uppercase;
-      font-family: Work Sans, sans-serif;
-      font-weight: 300;
-      font-size: 38pt;
-      letter-spacing: 2px; color: #777;
-      padding-right: 0;
-
-    }
-
-    .title {
-      font-size: 14pt;
-      margin-top: -10px;
-      letter-spacing: 0;
-    }
+.title {
+  font-size: 14pt;
+  margin-top: -10px;
+  letter-spacing: 0;
+}
 
 
